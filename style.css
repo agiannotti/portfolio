@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&family=Nanum+Gothic+Coding:wght@400;700&display=swap');
+
+/* --- General Styling --- */
+
+body {
+    background-color: #F7F9F9;
+    font-family: 'Baloo Chettan 2';
+    font-weight: 400;
+    color: #424242;
+    margin: auto;
+    padding: 4px 4px;
+    padding-top: 18px;
+    text-align: center;
+}
+
+
+header {
+    background-color: #EAECEE;
+    border-radius: 15px;
+    width: 85%;
+    margin: auto;
+    margin-bottom: 18px;
+    border: 1px solid #D0D3D4;
+    text-align: center;
+}
+
+.nameplate {
+    font-size: 38px;
+    font-weight: 400;
+    letter-spacing: -2px;
+    padding: 45px 0;
+}
+
+/* --- Navigation --- */
+
+header nav{
+    display:flex;
+    justify-content: center;
+}
+  
+header nav ul{
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+}
+  
+header nav ul li a{
+    color: black;
+    text-decoration: none;
+    margin: 0 20px 0 0;
+}
+  
+header nav ul li:last-child a{
+    margin-right:0;
+}
+
+/* --- Main Groups --- */ 
+
+h1, h2, h3, h4 {
+    font-size: 24px;
+}
+
+hr {
+    margin: 45px 175px;
+}
+
+.background {
+    background-color: #EAECEE;
+    border-radius: 15px;
+    width: 85%;
+    margin: auto;
+    margin-bottom: 18px;
+    border: 1px solid #D0D3D4;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 90px;
+}
+.group {
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    flex: 1;
+    margin: 10px;
+}
+ul {
+    text-align: left;
+    display: inline-block;
+}   
+
+.img-circle {
+    border-radius: 150px;
+    border: 2px solid #D0D3D4;
+}
+.roundme {
+    border-radius: 15px;
+    border: 2px solid #B3B6B7;
+    width: 70%;
+}
+  
+.roundme:hover {
+    opacity:0.5;
+}
+
+  a:link    { color:#546E7A; }
+  a:hover   { color: #FFC0CB; }
+
+form label {
+    display: flex;
+    font-size: 18px;
+    margin:auto;
+    color: gray;
+    font-family: arial;
+    justify-content: center;
+}
+
+form textarea {
+    height: 4.75rem;
+    color: #000;
+    font-size: 16px;
+    margin-bottom: 20px;
+    width: 189px;
+}
+  
+input,textarea {
+    text-align: center;
+}
+
+footer {
+    background-color: #EAECEE;
+    border-radius: 15px;
+    width: 60%;
+    margin: auto;
+    border: 1px solid #D0D3D4;
+    margin-top: 12px;
+}
+
+footer nav{
+    display:flex;
+    justify-content: center;
+}
+  
+footer nav ul{
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+}
+  
+footer nav ul li a{
+    color: black;
+    text-decoration: none;
+    margin: 0 20px 0 0;
+}
+  
+footer nav ul li:last-child a{
+    margin-right:0;
+}
+
+/* -- Desktop Display -- */
+
+@media all and (min-width: 800px) {
+    section {
+      padding: 0 10%;
+    }
+  
+    .group {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .group2 {
+      display: flex;
+      flex-direction: row;
+    }
+  }
