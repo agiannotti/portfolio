@@ -5,6 +5,7 @@
 body {
     background-color: #F7F9F9;
     font-family: 'Baloo Chettan 2';
+    letter-spacing: 1px;
     font-weight: 400;
     color: #424242;
     margin: auto;
@@ -26,8 +27,8 @@ header {
 
 .nameplate {
     font-size: 38px;
-    font-weight: 400;
-    letter-spacing: -2px;
+    font-weight: 500;
+    letter-spacing: 2px;
     padding: 45px 0;
 }
 
@@ -56,7 +57,7 @@ header nav ul li:last-child a{
 
 /* --- Main Groups --- */ 
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
     font-size: 24px;
 }
 
